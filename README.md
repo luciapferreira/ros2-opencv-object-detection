@@ -133,7 +133,3 @@ The `image_convert` node applies the following sequence to each rectified frame:
 
 - **OpenCV GUI on WSL** — `cv2.imshow` requires a display server. Make sure `DISPLAY` is set correctly and `opencv-python` (not `opencv-python-headless`) is installed.
 - **NumPy compatibility** — OpenCV may conflict with NumPy 2.x. If you encounter import errors, downgrade with `pip install "numpy<2"`.
-
-## License
-
-MIT © Lúcia Ferreira
